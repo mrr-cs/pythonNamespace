@@ -23,13 +23,11 @@ def Main():
                 # create the foxes
                 for idx in range(0, InitialFoxCount):
                     fx = animal.Fox(Variability)
-                    # should we print fox data to screen?
                     foxPopulation.append(fx)
 
                 # create the rabbits
                 for idx in range(0, InitialRabbitCount):
                     rb = animal.Rabbit(Variability)
-                    # should we print fox data to screen?
                     rabbitPopulation.append(rb)
 
             else:

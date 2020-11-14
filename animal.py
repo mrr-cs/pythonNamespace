@@ -19,7 +19,6 @@ class Animal():
     def CalculateRandomValue(self, BaseValue, Variability):
         return BaseValue - (BaseValue * Variability / 100) + (BaseValue * random.randint(0, Variability * 2) / 100)
 
-
 class Fox(Animal):
     def __init__(self, Variability):
         self.DEFAULT_LIFE_SPAN = 7
