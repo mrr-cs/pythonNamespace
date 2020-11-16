@@ -1,1 +1,1 @@
-# pythonSelf
+# pythonNamespace
